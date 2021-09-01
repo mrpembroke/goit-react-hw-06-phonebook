@@ -1,3 +1,3 @@
-# goit-react-hw-05-movies
+# goit-react-hw-06-movies
 
 Задание 6 / Телефонная книга (Redux)
