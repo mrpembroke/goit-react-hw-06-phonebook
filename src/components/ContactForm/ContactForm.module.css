@@ -1,0 +1,66 @@
+.newContacsForm {
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+.title {
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: brown;
+}
+
+.label {
+  display: block;
+  margin-bottom: 10px;
+
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.labelTitle {
+  display: inline-block;
+  width: 50px;
+  margin-right: 10px;
+}
+
+input {
+  padding: 10px;
+
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  outline: none;
+}
+
+input::placeholder {
+  opacity: 1;
+  transition: opacity 500ms ease-in-out;
+}
+
+input:focus::placeholder {
+  opacity: 0;
+}
+
+.button {
+  display: block;
+  min-width: 100px;
+  padding: 4px;
+
+  border: 1.5px solid darkgreen;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: white;
+  color: darkgreen;
+  outline: none;
+  cursor: pointer;
+
+  transition: color 250ms ease-in-out, background-color 250ms ease-in-out;
+}
+
+.button:hover {
+  background-color: darkgreen;
+  color: white;
+}
